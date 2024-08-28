@@ -1,0 +1,70 @@
+#header-parent {
+  display: flex;
+  justify-content: space-between;
+}
+#nav-list {
+  display: flex;
+  list-style-type: none;
+  column-gap: 56px;
+}
+#logo span {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44.74px;
+}
+#logo img {
+  width: 32px;
+  height: 32px;
+}
+#image {
+  width: 560px;
+  height: 650px;
+}
+
+#main {
+  width: 180px;
+  height: 60px;
+  border-radius: 84px;
+  background-color: #2f2f2f;
+}
+#hero-container {
+  display: flex;
+  justify-content: center;
+  font-family: Poppins;
+
+}
+
+#section {
+  width: 221px;
+height: 98px;
+top: 252.94px;
+left: 366px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 52px;
+font-weight: 700;
+line-height: 49.3px;
+text-align: left;
+
+}
+
+#section-2 {
+font-size: 120px;
+font-weight: 650;
+line-height: 118.5px;
+letter-spacing: -0.035em;
+text-align: left;
+color: #FF7E00;
+;
+
+}
+
+#priest {
+  display: flex;
+}
+
+#divs {
+  display: flex;
+}

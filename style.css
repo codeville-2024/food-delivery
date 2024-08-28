@@ -27,38 +27,34 @@
   height: 60px;
   border-radius: 84px;
   background-color: #2f2f2f;
+  color: #F4ECE1;
 }
 #hero-container {
   display: flex;
   justify-content: center;
   font-family: Poppins;
-
 }
 
 #section {
   width: 221px;
-height: 98px;
-top: 252.94px;
-left: 366px;
-gap: 0px;
-opacity: 0px;
-font-family: Poppins;
-font-size: 52px;
-font-weight: 700;
-line-height: 49.3px;
-text-align: left;
-
+  height: 98px;
+  
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 49.3px;
+  text-align: left;
 }
 
 #section-2 {
-font-size: 120px;
-font-weight: 650;
-line-height: 118.5px;
-letter-spacing: -0.035em;
-text-align: left;
-color: #FF7E00;
-;
-
+  font-size: 120px;
+  font-weight: 650;
+  line-height: 118.5px;
+  letter-spacing: -0.035em;
+  text-align: left;
+  color: #ff7e00;
 }
 
 #priest {
@@ -67,4 +63,5 @@ color: #FF7E00;
 
 #divs {
   display: flex;
+  align-items: center;
 }

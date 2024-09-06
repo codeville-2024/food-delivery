@@ -103,6 +103,9 @@
 #info {
   min-block-size: 500px;
 }
+#delivery-form {
+  padding: 20px;
+}
 #sub {
   background-color: mediumspringgreen;
   width: 200px;
@@ -112,20 +115,20 @@
   font-size: 20px;
 }
 #fname {
-  width: 500px;
-  height: 100px;
+  width: 400px;
+  padding: 10px 20px;
   border-radius: 7px;
   font-size: 10px;
 }
 #lname {
-  width: 500px;
-  height: 100px;
+  width: 400px;
+  padding: 10px 20px;
   border-radius: 7px;
   font-size: 10px;
 }
 #phnum {
-  width: 500px;
-  height: 100px;
+  width: 400px;
+  padding: 10px 20px;
   align-items: center;
   border-radius: 7px;
   font-size: 10px;
@@ -138,7 +141,7 @@
   font-size: 35px;
 }
 #order-img {
-  width: 200px;
+  width: 500px;
 }
 
 #order-text {

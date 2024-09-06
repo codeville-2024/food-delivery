@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div id="header-parent">
+        <div id="logo"><img src="chef-hat.png" alt="" /><span>Foo</span></div>
+        <ul id="nav-list">
+          <li>Home</li>
+          <li>Menu</li>
+          <li>Contact</li>
+          <li>Shop</li>
+        </ul>
+        <p>Search</p>
+      </div>
+    </header>
+    <h1>Delivery information</h1>
+    <section id="cent">
+      <div id="order-info"></div>
+      <form action="/action_page.php">
+        <label for="fname"> <span class="add">Address:</span></label
+        ><br />
+        <input type="text" id="fname" name="fname" /><br /><br />
+        <label for="lname"> <span class="add">Delivery time:</span></label
+        ><br />
+        <input type="text" id="lname" name="lname" /><br /><br />
+        <label for="fname"> <span class="add">Phone number:</span></label
+        ><br />
+        <input type="text" id="phnum" name="phnum" /><br /><br />
+        <input type="submit" id="sub" value="Submit" />
+      </form>
+    </section>
+    <script src="delivery.js"></script>
+  </body>
+</html>
